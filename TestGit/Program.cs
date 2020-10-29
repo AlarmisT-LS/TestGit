@@ -13,6 +13,8 @@ namespace TestGit
             Console.WriteLine($"Привет {person.name} {person.surname}!");
             Console.WriteLine($"Сколько тебе лет {person.name}?");
             Console.Write("Возраст:"); person.age = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write($"Имя:{person.name}\nФамилия:{person.surname}\nВозраст:{person.age}\n");
         }
     }
 }
